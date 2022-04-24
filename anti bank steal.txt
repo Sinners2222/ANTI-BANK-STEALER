@@ -22,7 +22,7 @@ end)
 local Tab = Window:NewTab("Pet Sim X")
 local Section = Tab:NewSection("Press To Execute Script")
 Section:NewButton("load anti bank (wait 25 sec) ", "load anti bank", function ()
- wait (25)
+    wait (25)
     _G.AuthKey = "1756816c-f89c-44a2-a7f2-e8bc18baf720"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RobIoxScripts/GUI/main/load.lua"))()
 end)
